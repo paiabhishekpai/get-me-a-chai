@@ -4,9 +4,8 @@ export default function Home() {
   return (
     <>
     <div className="flex flex-col h-[40vh] justify-center items-center gap-4 text-white">
-      <div className="font-bold text-xl">Buy me a Chai</div>
+      <div className="font-bold text-5xl">Buy me a Chai</div>
       <p>
-        {" "}
         A crowdfunding plateform for creators. Get funded by fans and followers.
         start Now!
       </p>
@@ -25,7 +24,7 @@ export default function Home() {
         </button>
       </div>
     </div>
-    <div className=""></div>
+    <div className="bg-slate-700 w-full h-0.5 opacity-80">g</div>
     </>
   );
 }
